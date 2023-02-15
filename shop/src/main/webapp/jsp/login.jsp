@@ -12,10 +12,10 @@
 <body>
 ログイン画面
 
-<html:form action="/menu">
+<html:form action="/login">
 
 <br/>
-ユーザーID:  <html:text property="id"/>
+ユーザーID:  <html:text property="id" value="testuser"/>
 <br/>
 パスワード:  <html:text property="password" />
 <br/>
