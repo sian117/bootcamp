@@ -6,13 +6,22 @@
 <html:html>
 
 <head>
+<link rel="stylesheet" href="/shop/css/common.css" type="text/css"/>
 <title>ログイン画面</title>
 </head>
 
 <body>
 ログイン画面
 
-<html:form action="/login">
+<br/>
+<br/>
+<!-- エラーメッセージ表示 -->
+<html:messages id="errMsg" message="false"  >
+	<bean:write name="errMsg" ignore="true" />
+</html:messages>
+<br/>
+
+<html:form action="/login02">
 
 <br/>
 ユーザーID:  <html:text property="id" value="testuser"/>

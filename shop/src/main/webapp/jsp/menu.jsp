@@ -12,7 +12,7 @@
 <body>
 メニュー画面
 
-<html:form action="/login">
+<html:form >
 <div>
 ようこそ：　ゲスト　 さん
 </div>

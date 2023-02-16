@@ -60,8 +60,8 @@
     <global-forwards>
 
         <forward
-            name="login"
-            path="/login.do"/>
+            name="login01"
+            path="/login01.do"/>
     </global-forwards>
 
 
@@ -74,13 +74,21 @@
             path="/Welcome"
             forward="/jsp/Welcome.jsp"/>
 
-
         <action
-            path="/login"
-            type="jp.co.arrowsystems.shop.action.LoginAction"
+            path="/login01"
+            type="jp.co.arrowsystems.shop.action.Login01Action"
             name="loginForm"
             scope="request">
             <forward name="success" path="/jsp/login.jsp" />
+        </action>
+
+        <action
+            path="/login02"
+            type="jp.co.arrowsystems.shop.action.Login02Action"
+            name="loginForm"
+            scope="request">
+            <forward name="success" path="/jsp/menu.jsp" />
+            <forward name="error" path="/jsp/login.jsp" />
         </action>
 
 
