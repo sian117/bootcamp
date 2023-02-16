@@ -13,13 +13,12 @@
 <body>
 ログイン画面
 
-<br/>
-<br/>
 <!-- エラーメッセージ表示 -->
-<html:messages id="errMsg" message="false"  >
-	<bean:write name="errMsg" ignore="true" />
-</html:messages>
-<br/>
+<div class="errorMsg">
+	<html:messages id="errMsg" message="false"  >
+		<bean:write name="errMsg" ignore="true" />
+	</html:messages>
+</div>
 
 <html:form action="/login02">
 

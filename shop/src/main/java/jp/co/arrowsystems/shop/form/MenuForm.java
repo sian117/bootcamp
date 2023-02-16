@@ -4,22 +4,18 @@ import jp.co.arrowsystems.shop.common.AbstractBaseForm;
 
 public class MenuForm extends AbstractBaseForm {
 
-    private String id;
-    private String password;
+    private String userName;
 
-    public void setId(String id) {
-        this.id = id;
-    }
+	public String getUserName() {
+		return userName;
+	}
 
-    public String getId() {
-        return this.id;
-    }
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
 
-    public void setPassword(String password) {
-        this.password = password;
-    }
 
-    public String getPassword() {
-        return this.password;
-    }
+    
+    
+    
 }

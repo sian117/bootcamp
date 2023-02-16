@@ -14,7 +14,7 @@
 
 <html:form >
 <div>
-ようこそ：　ゲスト　 さん
+ようこそ：　HOGE　 さん
 </div>
 <br/>
 <a href="#">マスタメンテ</a>

@@ -8,8 +8,7 @@
       <transactionManager type="JDBC"/>
       <dataSource type="POOLED">
         <property name="driver" value="org.sqlite.JDBC"/>
-<!--<property name="url" value="jdbc:sqlite:file:///C:/Users/sian/git/bootcamp/shop/db/shop.db"/>-->        
-        <property name="url" value="jdbc:sqlite:file:///C:/Users/sian1/git/bootcamp/shop/db/shop.db"/><!-- dbのファイルパス -->
+        <property name="url" value="jdbc:sqlite:file:///C:/Users/sian/git/bootcamp/shop/db/shop.db"/>        
       </dataSource>
     </environment>
   </environments>

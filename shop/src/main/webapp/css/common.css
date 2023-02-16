@@ -1,5 +1,5 @@
 @charset "UTF-8";
 
-#errMsg {
-	color: #ff0000;
+.errorMsg {
+	color: red;
 }

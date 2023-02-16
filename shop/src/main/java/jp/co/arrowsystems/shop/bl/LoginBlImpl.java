@@ -22,7 +22,7 @@ public class LoginBlImpl extends AbstractBaseBl implements LoginBl {
 		UserDto dto = dao.findUserInfoByUserId(userId);
 
 		if (dto == null) {
-			System.out.println("---- ユーザー登録なし ----");
+			System.out.println("------ ユーザー登録なし ------");
 			return false;
 		}
 
