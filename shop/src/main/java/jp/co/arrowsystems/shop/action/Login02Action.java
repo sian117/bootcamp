@@ -42,7 +42,7 @@ public final class Login02Action extends AbstractBaseAction implements ShopConst
 			UserDto dto = loginbl.getUserInfo(userId);
 
 			HttpSession session = request.getSession();
-			session.setAttribute(ShopConst.SESSION_KEY_USER_NAME, dto);
+			session.setAttribute(ShopConst.SESSION_KEY_USER_INFO, dto);
 			
 			// メニュー画面へ遷移する
 			return mapping.findForward("success");

@@ -15,9 +15,7 @@
 
 <!-- エラーメッセージ表示 -->
 <div class="errorMsg">
-	<html:messages id="errMsg" message="false"  >
-		<bean:write name="errMsg" ignore="true" />
-	</html:messages>
+<html:errors />
 </div>
 
 <html:form action="/login02">

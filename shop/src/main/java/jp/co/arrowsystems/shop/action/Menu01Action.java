@@ -13,7 +13,7 @@ import jp.co.arrowsystems.shop.common.ShopConst;
 import jp.co.arrowsystems.shop.dto.UserDto;
 import jp.co.arrowsystems.shop.form.MenuForm;
 
-public final class MenuAction extends AbstractBaseAction {
+public final class Menu01Action extends AbstractBaseAction {
 
 	@Override
 	public ActionForward doAction(ActionMapping mapping, ActionForm form, HttpServletRequest request,

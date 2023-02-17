@@ -87,14 +87,14 @@
             type="jp.co.arrowsystems.shop.action.Login02Action"
             name="loginForm"
             scope="request">
-            <forward name="success" path="/jsp/menu.jsp" />
+            <forward name="success" path="/menu01.do" />
             <forward name="error" path="/jsp/login.jsp" />
         </action>
 
 
         <action
-            path="/menu"
-            type="jp.co.arrowsystems.shop.action.MenuAction"
+            path="/menu01"
+            type="jp.co.arrowsystems.shop.action.Menu01Action"
             name="menuForm"
             scope="request">
             <forward name="success" path="/jsp/menu.jsp" />

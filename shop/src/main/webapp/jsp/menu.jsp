@@ -14,7 +14,7 @@
 
 <html:form >
 <div>
-ようこそ：　HOGE　 さん
+ようこそ：　<bean:write name="menuForm" property="userName" />　 さん
 </div>
 <br/>
 <a href="#">マスタメンテ</a>
