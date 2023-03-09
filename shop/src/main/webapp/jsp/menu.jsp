@@ -17,7 +17,8 @@
 ようこそ：　<bean:write name="menuForm" property="userName" />　 さん
 </div>
 <br/>
-<a href="#">マスタメンテ</a>
+<html:link action="/mainte01">マスタメンテ</html:link>
+
 <br/>
 <br/>
 

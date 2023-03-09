@@ -7,6 +7,12 @@ public class LoginForm extends AbstractBaseForm {
     private String id;
     private String password;
 
+    
+    
+    
+    
+    
+    
     public void setId(String id) {
         this.id = id;
     }

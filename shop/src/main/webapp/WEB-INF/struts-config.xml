@@ -43,6 +43,7 @@
 
         <form-bean name="loginForm" type="jp.co.arrowsystems.shop.form.LoginForm" />
         <form-bean name="menuForm" type="jp.co.arrowsystems.shop.form.MenuForm" />
+        <form-bean name="mainteForm" type="jp.co.arrowsystems.shop.form.MaintenanceForm" />
 
 
     </form-beans>
@@ -98,6 +99,14 @@
             name="menuForm"
             scope="request">
             <forward name="success" path="/jsp/menu.jsp" />
+        </action>
+
+        <action
+            path="/mainte01"
+            type="jp.co.arrowsystems.shop.action.Maintenance01Action"
+            name="mainteForm"
+            scope="request">
+            <forward name="success" path="/jsp/maintenance.jsp" />
         </action>
 
 
